@@ -12,7 +12,7 @@ This is a demonstration of a simple and leightweight yet fully customazible and 
 
 The elements that builts up the game are Levels, Steps, Items and Quests. A level contains several steps. A single step can contain several items and quests. Rules can be defined in the XML to control under what kind of condition the player can move from one step to an other.
 
-Some steps for example requires that the player pick up all the items while other steps are only then completed if the quest is solved either by clicking it or by dragging the right item into it.
+Some steps for example requires that the player picks up all the items while other steps will only then complete if the quest is solved either by click or by dragging the right item into it.
 
 To clarify this, I will go through the gamedata.xml that is used in the simple point 'n click demonstration.
 
