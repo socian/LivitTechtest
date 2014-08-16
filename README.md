@@ -89,7 +89,7 @@ This step containes 5 items. Each item has an attribute "required" that is set t
   </questlist>
 </step>
 ```
-This is a step that containes one quest which contains one accepted item. This means that this quest has to be solved by dragging the right item into it. The quest will only be solved if the items refid is equal to the items refid deined in the accepted list. After the quest is solved, the game will move to the step defined in the "onsolved" attribute of the quest.
+This is a step that containes one quest which contains one accepted item. This means that this quest has to be solved by dragging the right item into it. The quest will only be solved if the items refid is equal to the items refid defined in the accepted list. After the quest is solved, the game will move to the step defined in the "onsolved" attribute of the quest.
 
 **Go through the gamedata.xml**
 
