@@ -1,4 +1,4 @@
-LivitTechtest
+Livit Tech test
 =============
 
 **Simple & lightweight yet fully customazible and scalable point 'n click enging.**
