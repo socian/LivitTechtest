@@ -3,7 +3,7 @@ Livit Tech Test
 
 **Simple & lightweight yet fully customazible and scalable point 'n click enging.**
 
-Web Demo
+Web Demo:
 
 http://www.dihardja.de/livittechtest/webdemo/
 
