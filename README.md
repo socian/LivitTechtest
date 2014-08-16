@@ -35,7 +35,7 @@ This is the root tag of the gamedata.xml
   <item id="5" name="Burger" inventorysprite="burger-icon" />    
 </itemlist>
 ```
-All available items in the game are defined within the <itemlist> tag inside the root tag of the gamedata. The attributes "name" and the "inventorysprite" is used to display the items in the inventory panel. Items that are defined in each step are using a "refid" attribute for holding a reference to these items.
+All available items in the game are defined within the <itemlist> tag inside the root tag of the gamedata. The attributes "name" and the "inventorysprite" is used to display the items in the inventory panel. Items that are defined in each step are using a "refid" attribute for holding a reference to the available items.
 
 
 **3. A simle click quest**
