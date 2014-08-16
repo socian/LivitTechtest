@@ -93,7 +93,7 @@ This is a step that containes one quest which contains an accepted items. This m
 
 **Go through the gamedata.xml**
 
-Please feel free to take a closer look inside of tha gamedata.xml to get a better understanding about how to create your own point 'n click adventure.
+Please feel free to take a closer look at the gamedata.xml to get a better understanding about how to create point 'n click adventures.
 
 https://github.com/socian/LivitTechtest/blob/master/StreamingAssets/Data/gamedata.xml
 
