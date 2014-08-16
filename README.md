@@ -97,6 +97,10 @@ Please feel free to take a closer look at the gamedata.xml to get a better under
 
 https://github.com/socian/LivitTechtest/blob/master/StreamingAssets/Data/gamedata.xml
 
-The engine it self is developed based on the MVCVM and Dependency Injection pattern.  
+The engine it self is developed based on the MVCVM and Dependency Injection pattern. Feel free to browse through the commented source code.
+
+https://github.com/socian/LivitTechtest/tree/master/Scripts
+
+Enjoy :)
 
 
