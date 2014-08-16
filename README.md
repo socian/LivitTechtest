@@ -44,7 +44,7 @@ All available items in the game are defined within the <itemlist> tag inside the
 ```
 This is the first step in the demonstration. The "clearinventory" attribute of the step node which is set to true means that the inventory should always be cleared if this step gets initialized.
 
-Th step contains only one quest that doesn't have an accepted item list. This means that this quest can be solved by clicking it. The "placeholder" attribute of the quest means that the engine will look for a game object with a name equal to the placeholder value and register it events. After the quest is solved, in this case by clicking it, the game will move to the next step that is defined in the "onsolved" attribute of the quest.  
+The step contains only one quest that doesn't have an accepted item list. This means that this quest can be solved by clicking it. The "placeholder" attribute of the quest means that the engine will look for a game object with a name equal to the placeholder value and register it events. After the quest is solved, in this case by clicking it, the game will move to the next step that is defined in the "onsolved" attribute of the quest.  
 
 
 
