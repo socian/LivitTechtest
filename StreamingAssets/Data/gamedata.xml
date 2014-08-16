@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+
+	<!--- 
+	List of all available items in the game.
+	this list is used to refer items that are defined in the level steps
+	-->
+	<itemlist>
+		<item id="1" name="Key" inventorysprite="ItemKey" />
+		<item id="2" name="Light Bulb" inventorysprite="light bulb" />
+		<item id="3" name="Pepper" inventorysprite="pepper" />
+		<item id="4" name="Poison" inventorysprite="poison-icon" />	
+		<item id="5" name="Burger" inventorysprite="burger-icon" />	
+	</itemlist>
+	
+	<levellist>
+		<level id="LEVEL_1">
+			<steplist>
+				
+				<!--- 
+				This level has a quest that doesn't have an accepted items list
+				Therefore it will solved if the player clicks on it 
+				After it is solved the game will move to the step defined in the 
+				onsolved attribute in the quest node.
+				
+				if the clearinventory attribute is set to true then the inventory
+				will be cleared everytime the game moves to this step.
+				-->
+				<step id="STEP_1" prefab="Prefabs/Steps/StepStart" clearinventory="true">
+					<questlist>
+						<!---
+						placeholder is the name of the gameobject representing the quest
+						-->
+						<quest id="START_QUEST" placeholder="LabelStart" onsolved="STEP_2" />
+					</questlist>		
+				</step>
+				
+				<!--- 
+				This step doesn't have a quest but it will go to the step 
+				defined in the "onpicked" attribute of the item after the item is picked up
+				-->
+				<step id="STEP_2" prefab="Prefabs/Steps/Step_1_1">
+					<itemlist>
+						<!---
+						placeholder is the name of the gameobject representing the item
+						-->
+						<item refid="1" placeholder="ItemKey" onpicked="STEP_3" />
+					</itemlist>
+				</step>
+				
+				<!--- 
+				This Step also doesn't have any quest but it requires that all 
+				items are picked up before it moves to the step defined in the "oncomplete" attribute
+				in the step node 
+				-->
+				<step id="STEP_3" prefab="Prefabs/Steps/Step_1_2" oncomplete="STEP_4">
+					<itemlist>
+						<item refid="2" placeholder="ItemLightBulb" required="true" />
+						
+						<item refid="4" placeholder="ItemPoison" required="true" />
+						<item refid="3" placeholder="ItemCabe_1" required="true" />
+						<item refid="3" placeholder="ItemCabe_2" required="true" />
+						<item refid="3" placeholder="ItemCabe_3" required="true" />
+						
+					</itemlist>
+				</step>
+				
+				<!--- 
+				This step has a quest which accepts one item. after the player dragged 
+				the accepted item into the quest object the game will move to the step defined in
+				the "onsolved" attribute of the quest node 
+				-->
+				<step id="STEP_4" prefab="Prefabs/Steps/Step_1_3">
+					<questlist>
+						<!---
+						This quest accepts one kind of item. the player needs to drag
+						this one particiular item in order to solve the quest.
+						-->
+						<quest placeholder="Lamp" onsolved="STEP_5" >
+							<accepteditemlist>
+								<item refid="2" />
+							</accepteditemlist>
+						</quest>
+					</questlist>
+				</step>
+				
+				<!--- 
+				This step has only a quest that needs to be clicked by the player. 
+				-->
+				<step id="STEP_5" prefab="Prefabs/Steps/Step_1_4">
+					<questlist>
+						<quest placeholder="LabelPlayAgain" onsolved="STEP_1" />
+					</questlist>
+				</step>
+			</steplist>
+		</level>
+	</levellist>	
+</game>
