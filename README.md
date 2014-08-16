@@ -1,7 +1,7 @@
 LivitTechtest
 =============
 
-Repository of the Livit tech test game.
+**Repository of the Livit tech test game.**
 
 
 This is a demonstration of a simple and leightweight yet fully customazible and scalable point n' click engine. Interactions can be created without the need of any additional coding. Only by manipulating the game data inside the xml file and by creating the view prefabs, an infinite chain of interactions can be made.
@@ -13,7 +13,7 @@ Some steps for example requires that the player pick up all the items while othe
 To clarify this, I will go through the gamedata.xml that is used in the simple point 'n click demonstration.
 
 
-1. The gamedata.xml 
+**1. The gamedata.xml** 
 ```
 <game>
 </game>
@@ -21,7 +21,7 @@ To clarify this, I will go through the gamedata.xml that is used in the simple p
 This is the root tag of the gamedata.xml
 
 
-2. Available items
+**2. Available items**
 ```
 <itemlist>
   <item id="1" name="Key" inventorysprite="ItemKey" />
@@ -34,7 +34,7 @@ This is the root tag of the gamedata.xml
 All available items in the game are defined within the <itemlist> tag inside the root tag of the gamedata. The attributes "name" and the "inventorysprite" is used to display the items in the inventory panel. Items that are defined in each step are using a "refid" attribute for referencing to these items.
 
 
-3. A simle click quest
+**3. A simle click quest**
 ```
 <step id="STEP_1" prefab="Prefabs/Steps/StepStart" clearinventory="true">
   <questlist>
@@ -48,7 +48,7 @@ Th step contains only one quest that doesn't have an accepted item list. This me
 
 
 
-4. Picking up an item
+**4. Picking up an item**
 ```
 <step id="STEP_2" prefab="Prefabs/Steps/Step_1_1">
   <itemlist>
@@ -60,7 +60,7 @@ This is a step that contains one item. The "refid" attribute of the item means t
 
 
 
-5. Picking up multiple items
+**5. Picking up multiple items**
 ```
 <step id="STEP_3" prefab="Prefabs/Steps/Step_1_2" oncomplete="STEP_4">
   <itemlist>
@@ -77,7 +77,7 @@ This step containes 5 items. Each item has an attribute "required" that is set t
 
 
 
-6. Solving a quest by dragging an item into the quest
+**6. Solving a quest by dragging an item into the quest**
 ```
 <step id="STEP_4" prefab="Prefabs/Steps/Step_1_3">
   <questlist>
