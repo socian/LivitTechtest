@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<!--- List of available items -->
+	<itemlist>
+		<item id="1" />
+		<item id="2" />
+		<item id="3" />
+		<item id="4" />
+		<item id="5" />
+	</itemlist>
+	
+	<levellist>
+		<level id="LEVEL_1">
+			<steplist>
+				<step id="STEP_1">
+					<itemlist>
+						<item refid="1" />
+						<item refid="2" />
+						<item refid="3" />
+					</itemlist>
+					<questlist>
+						<quest>
+							<accepteditemlist>
+								<item refid="1" />
+							</accepteditemlist>
+						</quest>
+					</questlist>
+				</step>
+				<step id="STEP_2"></step>
+				<step id="STEP_3"></step>
+			</steplist>
+		</level>
+	</levellist>
+	
+</game>

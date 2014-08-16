@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<player xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <level>2</level>
+  <step>1</step>
+  <itemlist>
+    <item>1</item>
+    <item>1</item>
+    <item>1</item>
+    <item>2</item>
+    <item>2</item>
+  </itemlist>
+</player>
