@@ -3,6 +3,10 @@ Livit Tech Test
 
 **Simple & lightweight yet fully customazible and scalable point 'n click enging.**
 
+Web Demo
+
+http://www.dihardja.de/livittechtest/webdemo/
+
 
 This is a demonstration of a simple and leightweight yet fully customazible and scalable point n' click engine. Interactions can be created without the need of any additional coding. Only by manipulating the game data inside the xml file and by creating the view prefabs, an infinite chain of interactions can be made.
 
