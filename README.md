@@ -91,8 +91,8 @@ This step containes 5 items. Each item has an attribute "required" that is set t
 ```
 This is a step that containes one quest which contains an accepted items. This means that this quest has to be solved by dragging an item into it. The quest will only be solved if the items refid is equal to the items refid deined in the accepted list. After the quest is solved, the game will move to the step defined in the "onsolved" attribute of the quest.
 
-
-Please feel free to take a closer look inside of tha gamedata.xml to get a better understanding about how to create your own point 'n click adventure. 
+**Go through the gamedata.xml**
+Please feel free to take a closer look inside of tha gamedata.xml to get a better understanding about how to create your own point 'n click adventure.
 
 https://github.com/socian/LivitTechtest/blob/master/StreamingAssets/Data/gamedata.xml
 
