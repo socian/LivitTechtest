@@ -1,7 +1,7 @@
 Livit Tech Test
 =============
 
-**Simple & lightweight yet fully customazible and scalable point 'n click engine.**
+**Simple & lightweight yet fully customizable and scalable point 'n click engine.**
 
 Web Demo:
 
