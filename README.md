@@ -6,6 +6,7 @@ Web Demo:
 http://www.dihardja.de/livittechtest/webdemo/
 
 **Note:**
+
 The web demo doesn't support the save & load functionality. Please download the desktop version,
 available for PC & Mac, which provides the save and load feature.
 
