@@ -7,6 +7,8 @@ Web Demo:
 
 http://www.dihardja.de/livittechtest/webdemo/
 
+http://www.dihardja.de/livittechtest/LivitTechtest_PC.zip
+http://www.dihardja.de/livittechtest/LivitTechtest_MAC.zip
 
 This is a demonstration of a simple and lightweight yet fully customizable and scalable point n' click engine. Interactions can be created without the need of any additional coding. Only by manipulating the game data inside the xml file and by creating the view prefabs, an infinite chain of interactions can be made.
 
