@@ -121,6 +121,6 @@ https://github.com/socian/LivitTechtest/tree/master/Scripts
 
 Clone this repository inside your Assets folder if you would like to take a closer look inside the project. 
 
-https://github.com/socian/LivitTechtest/tree/master/
+
 
 Enjoy :)
