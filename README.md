@@ -120,8 +120,4 @@ The engine it self is written in C# based on the MVCVM and the Dependency Inject
 https://github.com/socian/LivitTechtest/tree/master/Scripts
 
  
-**Get the project into Unity**
-
-feel free to clone this repository https://github.com/socian/LivitTechtest.git inside your Assets folder if you want to take a closer look inside this Unity3D project.
-
 Enjoy :)
